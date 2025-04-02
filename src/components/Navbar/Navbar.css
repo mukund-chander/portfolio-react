@@ -26,3 +26,20 @@
   transform: scale(1.05);
   background: linear-gradient(267deg, #b923e1 0.36%, #da7c25 102.6%);
 }
+
+.nav-menu li {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+}
+
+.nav-menu li img {
+  display: flex;
+  margin: auto;
+}
+
+.anchor-link {
+  text-decoration: none;
+  color: white;
+}
